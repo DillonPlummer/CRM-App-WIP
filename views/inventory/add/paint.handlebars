@@ -1,0 +1,48 @@
+<div class="card card-body">
+  <h1 class="text-center">New Paint</h1>
+  <form class="" action="/inventory" method="post">
+    <!-- company -->
+    <div class="form-group">
+      <label for="company">Company</label>
+      <input type="text" class="form-control" name="company">
+    </div>
+
+    <!-- item number -->
+    <div class="form-group">
+      <label for="itemNumber">Item Number</label>
+      <input type="text" class="form-control" name="itemNumber">
+    </div>
+
+    <!-- color -->
+    <div class="form-group">
+      <label for="color">Color</label>
+      <input type="text" class="form-control" name="color">
+    </div>
+
+    <!-- sheen -->
+    <div class="form-group">
+      <label for="sheen">Sheen</label>
+      <select name="sheen" class="form-control">
+       <option value="flat">Flat</option>
+       <option value="flat enamel">Flat Enamel</option>
+       <option value="eggshell">Eggshell</option>
+       <option value="satin">Satin</option>
+       <option value="semiGloss">Semi-Gloss</option>
+       <option value="highGloss">High-Gloss</option>
+      </select>
+    </div>
+
+    <!-- price -->
+    <div class="form-group">
+      <label for="price">Price</label>
+      <input type="number" class="form-control" name="price">
+    </div>
+
+    <!-- notes -->
+    <div class="form-group">
+      <label for="notes">Notes</label>
+      <textarea type="text" class="form-control" name="notes"></textarea>
+    </div>
+    <button type="submit" class="btn btn-dark">Add</button>
+  </form>
+</div>
